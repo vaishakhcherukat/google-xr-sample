@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="gcm_defaultSenderId" translatable="false">124312035925</string>
+  <string name="google_storage_bucket" translatable="false">app-vrmobile-dev.appspot.com</string>
+  <string name="project_id" translatable="false">app-vrmobile-dev</string>
+  <string name="google_api_key" translatable="false">AIzaSyDsN8KAfHh9Y6Y79gtJYnNz-I-5zN7kZL8</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDsN8KAfHh9Y6Y79gtJYnNz-I-5zN7kZL8</string>
+  <string name="google_app_id" translatable="false">1:124312035925:android:f122465ac1aff7ab996adc</string>
+  <string name="default_android_client_id" translatable="false">124312035925-59d24mnb2l9ie07cpbfra4e9635rhdcq.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">124312035925-47lhdhtsavuj12qe6v2od30am3krbnv9.apps.googleusercontent.com</string>
+</resources>

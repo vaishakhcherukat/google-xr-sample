@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "text": "How do you proceed?",
+      "time": 7.0,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Go in.",
+          "explanation": "Incorrect. Wait for the client to let you in.",
+          "isCorrect": false
+        },
+        {
+          "text": "Ask to be let in.",
+          "explanation": "Correct. Never enter without being let in by the client.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "Do you enter?",
+      "time": 10.5,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Yes",
+          "explanation": "Correct. The client is tense, but it seems safe.",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "explanation": "The client is tense, but it seems safe. Let's continue for now.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

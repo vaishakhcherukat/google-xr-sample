@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "text": "Do you see a clear path to exit in case you need to leave?",
+      "time": 2.0,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Yes",
+          "explanation": "",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "explanation": "The door is behind you should you need to leave.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "Hover around the scene to get a feel for your surroundings. For example, place your cursor over the can on the table.",
+      "time": 4.0,
+      "numPoints": 0,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "I've examined my surroundings.",
+          "explanation": "Did you notice all of the potential red flags? Look around again to see them highlighted in red.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "Do you feel safe staying to meet with the client?",
+      "time": 4.0,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Yes",
+          "explanation": "Keep the potential hazards in mind, but it's safe to continue.",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "explanation": "Keep the potential hazards in mind, but it's safe to continue.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "Feel free to look around some more, then click to start the interaction with the client.",
+      "time": 7.0,
+      "numPoints": 0,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Start interaction.",
+          "explanation": "",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

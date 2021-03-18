@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "text": "How do you want to respond?",
+      "time": 4.0,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Identify yourself and explain the situation.",
+          "explanation": "Nice approach. Be empathetic, but firm. Let's hand him the notification letter and continue.",
+          "isCorrect": true
+        },
+        {
+          "text": "Give him the notification.",
+          "explanation": "Yes, but make sure to identify yourself and explain the situation verbally as well.",
+          "isCorrect": false
+        },
+        {
+          "text": "Leave; he's already too hostile.",
+          "explanation": "You need to identify yourself and explain the situation. After that, hand him the notification letter and continue.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "The client is clearly upset. Try to calm him down.",
+      "time": 10,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Assure him it's not a big deal. ",
+          "explanation": "Express understanding. Ask to sit down and discuss solutions.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tell him to calm down.",
+          "explanation": "Apologize and ask to sit down and discuss solutions.",
+          "isCorrect": false
+        },
+        {
+          "text": "Offer to discuss solutions.",
+          "explanation": "Express understanding. Ask to sit down and discuss solutions.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "You've completed the exercise. Restart below or exit the app and remove the goggles.",
+      "time": 36,
+      "numPoints": 0,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Start Over",
+          "explanation": "",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

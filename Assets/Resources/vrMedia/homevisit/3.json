@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "text": "Are you at the right house?",
+      "time": 2.0,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Yes",
+          "explanation": "Correct. The house number is to the right of the door.",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "explanation": "Take a closer look. The house number is to the right of the door.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "How will you react if you feel physically threatened by the client?",
+      "time": 4.0,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Leave and call 911.",
+          "explanation": "Correct. If you are in danger, your primary responsibility is your own safety.",
+          "isCorrect": true
+        },
+        {
+          "text": "Try to calm them down.",
+          "explanation": "Incorrect. If you are in danger, your primary responsibility is your own safety. Leave and call 911.",
+          "isCorrect": false
+        },
+        {
+          "text": "I can handle myself in a fight.",
+          "explanation": "Incorrect. If you are in danger, your primary responsibility is your own safety. Leave and call 911.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "Look and listen. Do you feel safe knocking on the door?",
+      "time": 6.0,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Yes",
+          "explanation": "",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "explanation": "There aren't any serious red flags; let's continue for now.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "Feel free to look around some more, then click below to knock on the door.",
+      "time": 7.0,
+      "numPoints": 0,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Knock knock!",
+          "explanation": "",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

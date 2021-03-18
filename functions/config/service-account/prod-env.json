@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "walden-mobileapps-prod",
+  "private_key_id": "7c695128566f6d9570f58c8ce3ca4a1def1ad84c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDVCXpGudEEsk/v\nDu/behjPCpy+H0baRX3eJ3QGGY+M9O5G7BBMKZeybusyt+N95qyiiLNU69/VUi1e\ny8nIBwV5UXh7hV4RFJIiue0+2GPINJTBI3CSoMstRgo8+WzYLdsbFN4L1VcBJIAi\nXD2RtzMUR0Ku8v627Oda7F3JWwH4qeDuikoHpjxVHuztSYHuruHNAronxpYUMkgU\nrtNrErDZ85UXa9RUO1wUTnMdFanZSQck/csz6uUfI79Fy1AxvylUR7t125Za/3ce\nc+R/zyFOHucAeXGMV7kv0tX0kqenT5E3A1K9O2viu9Y/B57n8PF1s3SunQV8uGD2\nKoi63DlHAgMBAAECggEAC8vrjnEJpvXswTMVixS2vPg8d7apqLqCXsPWg+P0c/y4\nGQtHV8BR2xqTQYq3OSiF1LY3H/OzwE89nesw8DebUP1263gWHmICOZQMFBfNZq+q\nsQsyV5w5w/cF6Bxzr4DSiixco1Eb8T9BLSXobuIzHONZSPDBtAVoRjuicdztPgSo\nO3BNszDR9dwtYPELCv7jS/HN+cUxqICcNWKg4L33NY0dgQa4IXw17uxqNduHj/8P\nEkYhB50U1ETPp2d9nfW7hJSVsUrwLhNUI44GQ4/vJnZWHqyC0DHaJNdnoBTf/gOp\nlWUwJoYgpj5kX8uo/dJKzDWGD8JScxdrNsPIzWv5QQKBgQD4UH518GHMLPN5prU2\nt6WMvzTXSAX+1V04/ZsWC73Z0AzegjsmbA4kFF0BXjkog9GyXNtNSvpxfrVo70sH\nRbXYRTPTv32l3iPIc0AMNHK8sRe4fI93UNCKXosC/6wcHnaGOV63LFqrJmXTNX7D\nu59c0TCeQEEUu7m3CAVKSNBWpwKBgQDboXcLOHTR4Z3+uwQI5ueXlnBID/3cwGaJ\n59MsqbHRpBXC6vRapuaBWtkrCtq2RkFugaX2WD9/vEARDLP9wxjNZ2Php4IqQugV\nLP1mC0tFed0GzIdS/wahQnaPn9xzxPmFYOmzgBGyh8dUpF+slLO7jAKSVlj2glyt\nBWy7/0n8YQKBgH3m6kfISv3oKMccpLMKqHDVnegtx4RvEGZOB+1EpM0kdPH43B7e\nGMloXcPMz3RgadlixXrKMnOLSFXdRpB4Yvw2ElIhvIZ2PHRtIyNNEIPl0t4ioedg\nXWxbBWbO1agoNfZWblS3s30l6ekOLaj2n5XDJ0CF2bm2eTJ5aZ1BkAjvAoGBAK5L\nh/Zumj6JRuIFNiF+ZSHmcDqv/i22vmkIgYy7KnONPPvPi5V5SAo1t4wx8/mc7YYt\n+y/xPos3MLyXESv8LO2s9BX64hB5wkYzyvC1W8nJ+P7RRz81ReSpov89xSxWkBIq\nI6ygoOrGWAiy3X5PEAdxCAVr4vPV5ogkevMCmIthAoGAAqHVSk28dJ1M8SqVu3HT\nqFfPxFyekT+biUGNcIlRlp0wLGA1pTdKiYaF4Bw+/JvDJoFdP7c/x4DyduHZyF1C\nYVZED04LIVzmuE0y1TPqPGqD27bSw52lqKvbnryYUeJXTc8Sq3qkRB0NpfjWJB+8\nEROnMhk71ShniRgAjzbr/bM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-huukq@walden-mobileapps-prod.iam.gserviceaccount.com",
+  "client_id": "109135016069823861129",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-huukq%40walden-mobileapps-prod.iam.gserviceaccount.com"
+}

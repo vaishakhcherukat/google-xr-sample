@@ -1,0 +1,79 @@
+{
+  "questions": [
+    {
+      "text": "You've arrived at the client's residence, 5901 Laureate St.",
+      "time": 1.0,
+      "numPoints": 0,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Continue",
+          "explanation": "",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "You're here to inform the client that he is losing his transportation benefits.",
+      "time": 1.5,
+      "numPoints": 0,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Continue",
+          "explanation": "",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "First thing's first: can you be sure this is the right house?",
+      "time": 3.5,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Yes",
+          "explanation": "Incorrect. You can't see the house number from here.",
+          "isCorrect": false
+        },
+        {
+          "text": "No",
+          "explanation": "Correct! You can't see the house number from here.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "Now look and listen. Do you feel safe going to the door?",
+      "time": 4.5,
+      "numPoints": 1,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Yes",
+          "explanation": "",
+          "isCorrect": true
+        },
+        {
+          "text": "No",
+          "explanation": "There aren't any serious red flags; let's continue for now.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "Feel free to look around some more, then click below when you're ready to continue to the door.",
+      "time": 5.0,
+      "numPoints": 0,
+      "isBranching": false ,
+      "options": [
+        {
+          "text": "Go to the door.",
+          "explanation": "",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

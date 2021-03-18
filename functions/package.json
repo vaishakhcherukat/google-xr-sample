@@ -1,0 +1,43 @@
+{
+	"name": "functions",
+	"description": "Cloud Functions for Firebase",
+	"scripts": {
+		"lint": "eslint .",
+		"serve:dev": "npm run set-config:dev && npm run runtimeConfig && npm run serve:dev:done",
+		"serve:prod": "npm run set-config:prod && npm run runtimeConfig && npm run serve:prod:done",
+		"serve:dev:done": "firebase emulators:start --only functions --project walden-mobileapps-dev",
+		"serve:prod:done": "firebase emulators:start --only functions --project walden-mobileapps-prod",
+		"shell": "firebase functions:shell",
+		"start": "npm run shell",
+		"deploy:dev": "npm run set-config:dev && npm run runtimeConfig && npm run deploy:dev:done",
+		"deploy:prod": "npm run set-config:prod && npm run runtimeConfig && npm run deploy:prod:done",
+		"deploy:dev:done": "firebase deploy --only functions --project walden-mobileapps-dev",
+		"deploy:prod:done": "firebase deploy --only functions --project walden-mobileapps-prod",
+		"logs": "firebase functions:log",
+		"watch": "NODE_ENV=development nodemon index.js",
+		"runtimeConfig": "firebase functions:config:get > .runtimeconfig.json",
+		"set-config:dev": "firebase functions:config:set project.env=dev --project walden-mobileapps-dev",
+		"set-config:prod": "firebase functions:config:set project.env=prod --project walden-mobileapps-prod"
+	},
+	"engines": {
+		"node": "12"
+	},
+	"main": "index.js",
+	"dependencies": {
+		"bluebird": "~3.7.2",
+		"body-parser": "~1.19.0",
+		"compression": "~1.7.4",
+		"cors": "~2.8.5",
+		"express": "~4.17.1",
+		"firebase-admin": "^9.2.0",
+		"firebase-functions": "^3.11.0",
+		"helmet": "~4.1.1",
+		"revalidator": "~0.3.1"
+	},
+	"devDependencies": {
+		"eslint": "^5.12.0",
+		"eslint-plugin-promise": "^4.0.1",
+		"firebase-functions-test": "^0.2.0"
+	},
+	"private": true
+}

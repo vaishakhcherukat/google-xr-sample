@@ -1,0 +1,7 @@
+# Collapse Unity-generated large files in github diffs:
+# https://thoughtbot.com/blog/github-diff-supression
+*.asset linguist-generated
+*.mat linguist-generated
+*.meta linguist-generated
+*.prefab linguist-generated
+*.unity linguist-generated
