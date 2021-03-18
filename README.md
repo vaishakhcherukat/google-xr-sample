@@ -94,13 +94,7 @@ To run the build, transfer the APK to your Android device. You can do this by ma
 2. Select Player
 3. Select the iOS Tab (iPhone Icon)
 4. Expand the Other Settings section
-5. Enter the following values:
 
-        **Identification**
-        Bundle Identifier: net.laureate.walden.vr
-        Version: [version number, e.g. 1.0]
-        Build: [build number, e.g. 2019121002]
-        Signing Team ID: R2UJE8QMBK
 
 #### Building
 
