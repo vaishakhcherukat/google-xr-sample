@@ -1,4 +1,4 @@
-# Walden VR Unity App
+
 
 ## Contents
 
@@ -36,11 +36,7 @@
 - URL: https://developer.apple.com/download
 - More Information: [Unity iOS documentation](https://docs.unity3d.com/2018.2/Documentation/Manual/iphone-GettingStarted.html)
 
-### Download the Source
 
-Clone the repository:
-
-        $ git clone https://github.com/livefront/gokart-walden-vr.git
 
 ## Building
 
@@ -94,13 +90,7 @@ To run the build, transfer the APK to your Android device. You can do this by ma
 2. Select Player
 3. Select the iOS Tab (iPhone Icon)
 4. Expand the Other Settings section
-5. Enter the following values:
 
-        **Identification**
-        Bundle Identifier: net.laureate.walden.vr
-        Version: [version number, e.g. 1.0]
-        Build: [build number, e.g. 2019121002]
-        Signing Team ID: R2UJE8QMBK
 
 #### Building
 
@@ -122,7 +112,6 @@ Before you can run the app on a device, you must configure a provisioning profil
 2. Select the `Unity-iPhone` Target
 3. Select the Signing & Capabilities tab
 4. Ensure the "Automatically manage signing" checkbox is checked
-5. Under "Team" select "Laureate Education Inc"
 
 More Information: [Xcode Signing & Capabilities](https://help.apple.com/xcode/mac/current/#/dev60b6fbbc7)
 
@@ -138,7 +127,7 @@ More Information: [Xcode Signing & Capabilities](https://help.apple.com/xcode/ma
 
 1. Follow the steps in the "Building" section for Android above
 2. Sign into the [Google Play Store Console]()
-3. Select the "Walden VR" app
+3. Select the " VR" app
 4. Select "Release Management"
 5. App Releases > Production > Manage > Create Release
 6. Select "Browse Files" and upload the APK you built in step 1
