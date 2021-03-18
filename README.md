@@ -63,21 +63,12 @@ Clone the repository:
 5. Enter the following values:
 
         **Identification**
-        Package Name: net.laureate.walden.vr
+        Package Name: e.g. com.abc.net
         Version: [version number, e.g. 1.0]
         Bundle Version Code: [version code, e.g. 2019121002]
 
 6. Expand the Publish Settings section
 7. Ensure the keystore path is set to Suppport/upload.keystore
-8. Enter the following values:
-
-        **Project Keystore**
-        Path: Support/upload.keystore
-        Password: [on file]
-
-        **Project Key**
-        Alias: upload
-        Password: [on file]
 
 #### Building
 
